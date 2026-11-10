@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://www.saucedemo.com",
+    "credentials": {
+        "testUser": {
+            "username": "standard_user",
+            "password": "secret_sauce"
+        }
+    },
+    "selectors": {
+        "usernameInput": "[data-test='username']",
+        "passwordInput": "[data-test='password']",
+        "loginButton": "[data-test='login-button']",
+        "inventoryContainer": "[data-test='inventory-container']"
+    }
+}
