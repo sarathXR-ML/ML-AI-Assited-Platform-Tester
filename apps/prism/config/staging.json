@@ -1,0 +1,8 @@
+{
+  "appUrl": "https://prism.staging.mediantlabs.com/portal/login",
+  "users": {
+    "standardUser": {
+      "username": "qa-cand1@example.com"
+    }
+  }
+}

@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "dashboard": "node dashboard/server.js",
+    "dashboard:build": "npm run --prefix dashboard/client build",
+    "triage": "ts-node ai/triage.ts",
+    "nightly": "ts-node scripts/nightly-schedule.ts",
+    "demo:week1": "ts-node scripts/generate-demo.ts",
+    "demo:week2": "ts-node scripts/demo-week2.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sarathXR-ML/ML-AI-Assited-Platform-Tester.git"
@@ -23,6 +31,15 @@
     "typescript": "~5.7.2"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.8.0"
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node-cron": "^3.0.11",
+    "better-sqlite3": "^13.1.1",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "node-cron": "^4.6.0",
+    "sqlite3": "^6.0.1"
   }
 }

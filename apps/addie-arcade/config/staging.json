@@ -1,0 +1,8 @@
+{
+  "appUrl": "[INSERT_ADDIE_STAGING_URL_HERE]",
+  "users": {
+    "standardUser": {
+      "username": "[INSERT_ADDIE_USERNAME_HERE]"
+    }
+  }
+}

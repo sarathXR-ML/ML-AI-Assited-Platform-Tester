@@ -7,3 +7,9 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 .env
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+dashboard/client/node_modules/
+dashboard/client/dist/
